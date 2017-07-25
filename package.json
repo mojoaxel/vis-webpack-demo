@@ -1,0 +1,38 @@
+{
+  "name": "vis-webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack -p --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojoaxel/vis-webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "Alexander Wunschik <mail@wunschik.it>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mojoaxel/vis-webpack-demo/issues"
+  },
+  "homepage": "https://github.com/mojoaxel/vis-webpack-demo#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "image-webpack-loader": "^3.3.1",
+    "style-loader": "^0.18.2",
+    "transform-runtime": "0.0.0",
+    "webpack": "^3.4.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "vis": "^4.20.1"
+  }
+}
