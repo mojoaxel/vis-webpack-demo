@@ -46,13 +46,21 @@ var config = {
         test: /.*\.png$/i,
         loaders: [ 'file-loader', {
           loader: 'image-webpack-loader',
-          query: {
+        query: {
+          mozjpeg: {
             progressive: true,
-            pngquant: {
-              quality: '65-90',
-              speed: 4
-            }
-          }
+          },
+          gifsicle: {
+            interlaced: false,
+          },
+          optipng: {
+            optimizationLevel: 4,
+          },
+          pngquant: {
+            quality: '65-90',
+            speed: 4,
+          },
+        }
         }
       ]
       }
