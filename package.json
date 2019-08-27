@@ -32,7 +32,7 @@
     "style-loader": "^0.18.2",
     "transform-runtime": "0.0.0",
     "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.11.3"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "vis": "^4.21.0"
