@@ -13,6 +13,10 @@
   },
   "keywords": [],
   "author": "Alexander Wunschik <mail@wunschik.it>",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/mojoaxel"
+  },
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/mojoaxel/vis-webpack-demo/issues"
